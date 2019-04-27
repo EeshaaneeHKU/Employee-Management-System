@@ -11,6 +11,7 @@
 */
 #ifndef Employee_h
 #define Employee_h
+#include<string>
 using namespace std;
 
 class Employee
@@ -24,7 +25,7 @@ public:
   void Display_All_Data();
   void Options();
   void dynamicsorter();
-  void sorttheinitialarray();
+  void sorttheinitialarray(string *nameholder, int length);
   void finalresolve();
   void killswitch();
   void Edit_Existing();
