@@ -1,0 +1,9 @@
+Instruction for the Assssment of the Code
+The makefile presented in the repository is for the following files.
+1) main.cpp
+2) Employee.h
+3) Employee.cpp
+
+The files Employee(withclass).cpp works with the file Projectwithclass.h and the file CourseProject.cpp works with Projectwithoutclass.h .
+Please rename these files when using with makefile.
+If there were more than one makefiels, the system was not executing properly.
