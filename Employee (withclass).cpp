@@ -23,7 +23,7 @@ void Employee:: Salary_Caps()
   int my_salary, str_length, index;
   ifstream fin;
   fin.open("data.txt");
-  
+
   cout<< "Employees with salary between "<< lower_range<< " and "<< upper_range<<" are: "<<endl;
 
   while (getline(fin, my_line)){
@@ -455,6 +455,7 @@ void Employee:: Options()
 
 int main()
 {
-  Options();
+  Employee X;
+  X.Options()
   return 0;
 }
